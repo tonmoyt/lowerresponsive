@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+    COLOR: #;
+    color: #33417c;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner{
+    background-image: url(../images/banner.png);
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner h1{
+
+color: #fff;
+
+font-size: 65px;
+
+text-transform: uppercase;
+
+font-weight: bold;
+
+font-family: 'Montserrat', sans-serif;
+}
+
+.icon{
+
+    position: absolute;
+
+    left: 50%;
+    
+    color: #fff;
+    
+    top: 75%;
+    
+    transform: translate(-50%);
+    
+    font-size: 40px;
+    
+    animation: down-arrow-icon 0.8s linear infinite;
+    
+    animation-direction: alternate;
+    }
+    @keyframes down-arrow-icon{
+        0%{
+            top: 75%;
+        }
+        100%{
+            top: 79%;
+        }
+    }
+
+.who_we_are{
+    font-family: 'Montserrat', sans-serif;
+padding: 80px 0;
+}
+
+.who_we_are p{
+
+color: #bab5b2;
+
+font-family: 'Open Sans', sans-serif;
+
+font-size: 24px;
+}
+
+
+.heading span{
+
+display: inline-block;
+
+width: 0px;
+
+height: 5px;
+font-family: 'Open Sans', sans-serif;
+background: #f19a62;
+transition: .2s all ease-in-out;
+}
+
+.heading h1{
+
+/* font-family: 'Open Sans', sans-serif; */
+
+font-family: 'Montserrat', sans-serif;
+
+text-transform: uppercase;
+
+color: #33417c;
+
+font-size: 40px;
+
+font-weight: bold;
+}
+
+.text_right{
+    text-align: end;
+
+}
+
+.who_we_are:hover .heading span{
+    width: 53px;
+}
+
+.what_we_do{
+background-color: #fbfbfb;
+padding: 70px 0px;
+background-image: url(../images/section2-backgroung.png);
+background-position: right bottom;
+background-repeat: no-repeat;
+}
+.heading_2 h1{
+    text-transform: uppercase;
+
+    color: #33417c;
+    
+    font-size: 40px;
+
+
+}
+
+.heading_2 span{
+    display: inline-block;
+
+    width: 0px;
+    
+    height: 5px;
+    
+    background: #f19a62;
+    transition: .2s all ease-in-out;
+
+
+}
+
+.what_we_do:hover .heading_2 span{
+ width: 50px;
+
+
+}
+
+.image{
+position: relative;
+
+
+}
+.image img{
+width: 100%;
+
+}
+
+.image::before{
+    content: "";
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#28377e+0,28377e+100&0+27,1+100 */
+    background: -moz-linear-gradient(top,  rgba(40,55,126,0) 0%, rgba(40,55,126,0) 27%, rgba(40,55,126,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(40,55,126,0) 0%,rgba(40,55,126,0) 27%,rgba(40,55,126,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(40,55,126,0) 0%,rgba(40,55,126,0) 27%,rgba(40,55,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0028377e', endColorstr='#28377e',GradientType=0 ); /* IE6-9 */
+    
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 0%;
+     position: absolute;
+     opacity: 0.6;
+     transition: 0.6s all ease-in-out;
+}
+
+.image:hover::before{
+
+height: 100%;
+
+
+}
+
+.title{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: #fff;
+    text-transform: uppercase;
+    transform: translate(-55%, -50%);
+    opacity: 0;
+    transition: .7s all ease-in-out;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+
+}
+.title h1{
+
+font-family: 'Montserrat', sans-serif;
+
+font-weight: bold;
+}
+.image:hover .title{
+    opacity: 1;
+    top: 45%;
+
+
+}
+.arrow_icon{
+    position: absolute;
+    
+    color: white;
+    top: 74%;
+    left: 45%;
+    transform: translate(-50px);
+    font-size: 384%;
+    opacity: 0;
+    transition: 0.5s all ease-in-out;
+
+}
+
+.image:hover .arrow_icon{
+    opacity: 1;
+    left: 54%;
+
+
+}
+.our_atto{
+
+
+
+}
+
+.our_atto h1{
+
+color: white;
+}
+.our_atto p{
+
+color: #a3a0cc;
+}
+
+.our_atto h2{
+
+color: #e76128;
+}
+
+.our_atto span{
+    display: inline-block;
+
+    width: 0px;
+    
+    height: 5px;
+    
+    background: #f19a62;
+    transition: .2s all ease-in-out;
+
+}
+
+.attorneys:hover .our_atto span{
+    width: 53px;
+
+
+}
+
+.attorneys{
+
+background-color: #36226f;
+}
+
+.our-attorneys{
+    background-image: url(../images/last-sec-background.png);
+    padding: 100px 0 60px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.attorneys-content{
+    padding-top: 100px;
+    margin-bottom: 34px;
+}
+.feature-content span{
+
+    display: inline-block;
+
+    width: 0px;
+    
+    height: 5px;
+    
+    background: #f19a62;
+    transition: .2s all ease-in-out;
+
+
+}
+
+.our-attorneys:hover .feature-content span{
+    width: 53px;
+}
+.our-attorneys h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+}
+.our-attorneys p{
+    font-size: 16px;
+    color: #b0b0b1;
+}
+
+.attorneys-image{
+    position: relative;
+    margin-bottom: 80px;
+}
+.attorneys-image::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 0%;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(182,170,204,0) 37%, rgba(57,25,116,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(182,170,204,0) 37%,rgba(57,25,116,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(182,170,204,0) 37%,rgba(57,25,116,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#391974',GradientType=0 );
+    transition: 0.3s all ease-in-out;
+}
+
+.attorneys-image:hover::before{
+    height: 100%;
+}
+
+
+.title2 {
+    text-align: left;
+    position: absolute;
+    left: 15%;
+    top: 65%;
+    transform: translate(0, -30%);
+    opacity: 0;
+    transition: 0.3s all ease-in-out;
+
+}
+.attorneys-image:hover .title2{
+    opacity: 1;
+    top: 70%;
+}
+
+.attorneys-content a{color: #F2622C !important;text-decoration: none;font-size: 18px;font-weight: 500;/* margin-bottom: 18px; */}
+.attorneys-content a:hover{
+    color: #ce5124 !important;
+}
+.langgu1st{text-align: center;margin-top: 118px;margin-bottom: 93px;}
+
+.langgu1st span{
+    display: inline-block;
+
+    width: 0px;
+    
+    height: 5px;
+    
+    background: #f19a62;
+    transition: .2s all ease-in-out;
+
+
+}
+
+.langgu1st h1{
+color: #36226f;
+text-transform: uppercase;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+
+}
+.languages:hover .langgu1st span{
+width: 53px;
+
+
+}
+
+.inner_langu{
+
+margin-bottom: 100px;
+}
+
+.inner_langu h1{
+
+color: #36226f;
+
+font-family: 'Montserrat', sans-serif;
+
+font-weight: bold;
+
+font-size: 25px;
+}
+
+.inner_langu p{
+
+color: #bab5b3;
+
+font-family: 'Open Sans', sans-serif;
+}
+
+.inner_langu h2{
+
+color: #e76128;
+
+font-family: 'Open Sans', sans-serif;
+
+font-weight: bold;
+}
+
+
+
+.footer{
+    background-color: #16102b;
+    padding: 22px 0;
+    /* margin-top: 0px; */
+}
+
+.footer-content p{
+    padding-top: 13px;
+    color: #6c65a0;
+}
+.footer-icon ul{
+    list-style: none;
+}
+.footer-icon ul li{
+  
+    float: left;
+    padding: 0 20px;
+
+} 
+
+.footer-icon ul li a {
+    color: #fff;
+}
+
+
+
+
+
+
+.contract_usd{
+    
+background-color: #36226f;
+    
+/* margin-bottom: -27px; */
+    
+padding-bottom: 69px;
+    
+padding-top: 30px;
+}
+
+.contract_usd form{
+
+text-align: center;
+}
+
+.contract_usd form input{color: white;width: 100%;background: transparent;border: none;border-bottom: 1px solid #564a98;margin-bottom: 45px;caret-color:white;font-family: 'Montserrat', sans-serif;font-weight: normal;}
+
+.contract_usd form input:focus-visible{
+outline: none;
+
+
+}
+.contract_usd form input::placeholder{
+color: white;
+
+}
+.contract_usd form textarea{
+
+width: 100%;
+
+color: white;
+
+background: transparent;
+
+border: none;
+
+border-bottom: 1px solid #564a98;
+
+margin-bottom: 15px;
+
+caret-color:white;
+
+font-family: 'Montserrat', sans-serif;
+
+}
+    
+    .contract_usd form textarea:focus-visible{
+    outline: none;
+    
+    
+    }
+    .contract_usd form textarea::placeholder{
+    color: white;
+    }
+.contract_usd form input[type="submit"]{
+
+border: none;
+
+background: #e76128;
+
+color: white;
+
+width: 26%;
+
+height: 41px;
+
+text-transform: uppercase;
+
+/* font-family: 'Open Sans'; */
+
+font-weight: bold;
+
+transition: 0.5s all ease-in-out;
+
+font-family: 'Open Sans', sans-serif;
+
+margin-top: 30px;
+}
+
+.contract_usd form input[type="submit"]:hover{
+background: transparent;
+border: 1px solid #e76128;
+
+
+}
+
+
+
+.contractv{
+    text-align: center;
+    margin-top: 51px;
+}
+
+
+.contractv span{
+    display: inline-block;
+    width: 0px;
+    height: 4px;
+    background: #f19a62;
+    margin-bottom: 19px;
+    transition: .2s all ease-in-out;
+}
+
+.contract_usd:hover .contractv span{
+    width: 53px;
+
+
+}
+
+
+
+
+.contractv h1{color: #fbfbfb;text-transform: uppercase;margin-bottom: 77px;font-family: 'Montserrat', sans-serif;font-weight: bold;}
+
+.text_right img {
+    width: 73%;
+}
+
+.languages{
+
+
+
+}
+
+.footer-content{
+
+
+
+}
+
+.footer-icon{
+
+
+    
+}

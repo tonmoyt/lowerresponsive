@@ -1,0 +1,155 @@
+@media(min-width:0px) and (max-width:1024px){
+
+    .who_we_are p {
+        color: #bab5b2;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 17px;
+    }
+
+    .footer-icon {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media(min-width:0px) and (max-width:768px){
+
+    .inner_langu h1 {
+    
+        font-size: 19px;
+    }
+
+    .who_we_are p {
+        color: #bab5b2;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+    }
+
+    .inner_langu p {
+        
+        font-size: 12px;
+    }
+
+    .inner_langu h2 {
+       
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media(min-width:0px) and (max-width:426px){
+    .text_right img {
+        width: 73%;
+        display: none;
+    }
+
+    .what_we_do {
+        text-align: center;
+        
+    }
+    .what_we_do {
+       display: none
+        padding: 70px 21px;
+        
+        
+    }
+    .image {
+        
+        margin-bottom: 20px;
+    }
+
+
+    .our-attorneys {
+        
+        padding: 2px 30px;
+        
+    }
+    .languages {
+        padding: 0 29px;
+    }
+    .contract_usd {
+        padding: 0px 31px;
+        
+    }
+
+    .footer-content {
+        text-align: center;
+    }
+
+    .footer-icon {
+        text-align: center;
+        /* margin-left: 25px; */
+        align-items: baseline;
+        font-size: 32px;
+    }
+    .heading p{
+font-size: 5px;
+
+    }
+
+
+    .who_we_are p {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+}
+@media(min-width:0px) and (max-width:376px){
+    .footer-icon {
+        text-align: center;
+        /* margin-left: 25px; */
+        align-items: baseline;
+        font-size: 25px;
+    }
+
+
+
+
+}
+
+@media(min-width:0px) and (max-width:321px){
+
+    .footer-icon {
+        text-align: center;
+        /* margin-left: 5px; */
+        display: inline-block;
+        display: flex;
+        font-size: 8px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
